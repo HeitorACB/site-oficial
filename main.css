@@ -164,11 +164,9 @@
           a::after {
             content: '';
             width: 30px; height: 30px;
-            border-radius: 100%;
             border: 6px solid #00ff04;
             position: absolute;
             z-index: -1;
-            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             animation: ring 1.5s infinite;
