@@ -1,0 +1,311 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    body{
+    background-color: #000000;
+    }
+    
+    header {
+    background-color: #32fb00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    }
+    
+    h1 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: 'Tilt Neon', cursive;
+    }
+    
+    .paragrafo{
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+    }
+    
+    .colorText{
+    color: #00ff00;
+    }
+    
+    .video-yt {
+    width: 100%;
+    height: 360px;
+    }
+    
+    .copytigth{
+    color: #fbfbfb;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 100px;
+    }
+    
+    .whatsapp-container {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .whatsapp-link {
+    width: 40px;
+    height: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px #888888;
+    }
+    
+    .fa-whatsapp {
+    margin-top: 12px;
+    margin-right: 0px;
+    }
+    
+    .whatsapp-text {
+    font-weight: bold;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    }
+
+    .comprar{
+ 
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        
+    }
+
+    button{
+        background: #1eff00;
+        color: rgb(5, 5, 5);
+        border-style: outset;
+        border-color: #0e810c;
+        height: 40px;
+        width: 100px;
+        font: bold15px arial,sans-serif;
+        font-size: 18px;
+        text-shadow: none;
+        margin-top: 10px;
+        cursor: pointer;
+        }
+
+    .comprar-link{
+        text-decoration: none;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+@media screen and (min-width:768px) and (max-width:1022px){
+
+    header {
+        background-color: rgb(50, 251, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 26px;
+        text-align: center;
+        margin: 0; 
+        color: white;
+        font-family: 'Tilt Neon', cursive;
+    }
+    
+    .paragrafo{
+        color: white;
+        font-size: 34px;
+        padding-top: 40px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    
+    .colorText{
+        color: rgb(0, 255, 0);
+    }
+    
+    .cor-fundo{
+        text-align: center;
+        width: 50%; /* altere o valor conforme necessário */
+        margin-left: 20%;
+        margin-bottom: 10%;
+        margin-top: 1px;
+        height: 350px;
+        }
+        
+        .cor-fundo video{
+            object-fit: unset;
+            text-align: center;
+            width: 500px;
+            max-height: 450px;
+        }
+        
+        video {
+            text-align: center;
+        }
+
+    .copytigth{
+        color: rgb(251, 251, 251);
+        text-align: center;
+        font-size: 12px;
+        padding-top: 100px;
+    }
+    .whatsapp-container {
+        display: flex;    
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        }
+        
+        .whatsapp-link {
+        width: 40px;
+        height: 40px;
+        background-color: #25d366;
+        color: #ffffff;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 18px;
+        box-shadow: 2px 2px 4px #888888;
+        }
+        
+        .fa-whatsapp {
+        margin-top: 12px;
+        margin-right: 0px;
+        }
+        
+        .whatsapp-text {
+        font-weight: bold;
+        margin-left: 10px;
+        color: #ffffff;
+        font-size: 18px;
+        }
+        button{
+            background: #1eff00;
+            color: rgb(5, 5, 5);
+            border-style: outset;
+            border-color: #0e810c;
+            height: 60px;
+            width: 160px;
+            font: bold15px arial,sans-serif;
+            font-size: 18px;
+            text-shadow: none;
+            margin-top: 10px;
+            cursor: pointer;
+            }
+    
+        .comprar-link{
+            text-decoration: none;
+            font-size: 24px;
+            color: #ffffff;
+        }
+    
+
+}
+
+@media screen and (min-width:1023px){
+
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: roboto, sans-serif;
+        }
+        
+        header {
+            background-color: rgb(32, 255, 2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 26px;
+            text-align: center;
+            margin: 0; 
+            color: white;
+            font-family: 'Tilt Neon', cursive;
+        }
+        
+        .paragrafo {
+            color: white;
+            font-size: 22px;
+            padding-top: 40px;
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        
+        .colorText {
+            color: rgb(0, 255, 0);
+        }
+        
+        .video-yt{
+            width: 50%;
+            margin-left: 380px;
+        }
+
+        
+        .copytigth {
+            color: rgb(251, 251, 251);
+            text-align: center;
+            font-size: 10px;
+            padding-top: 100px;
+            margin-bottom: 10px;
+        }
+        
+
+
+        .whatsapp-container {
+            display: flex;
+            align-items: center;
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            z-index: 1000;
+            flex-direction: row-reverse;
+        }
+        
+        .whatsapp-link {
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            color: #ffffff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 1px 1px 2px #888;
+        }
+        
+        .fa-whatsapp {
+            margin-top: 16px;
+        }
+        
+        .whatsapp-text {
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 10px; /* mudamos a margem para a direita */
+            color: #ffffff;
+            font-size: 15px;
+        }
+}
