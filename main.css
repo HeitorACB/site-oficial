@@ -92,18 +92,18 @@
         
     }
 
-    button{
-        background: #1eff00;
-        color: rgb(5, 5, 5);
-        border-style: outset;
-        border-color: #0e810c;
-        height: 40px;
-        width: 100px;
-        font: bold15px arial,sans-serif;
-        font-size: 18px;
-        text-shadow: none;
-        margin-top: 10px;
-        cursor: pointer;
+    .comprar a{
+        text-decoration: none;
+        background-color: #00ff00;
+        padding: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        color: #000000;
+        font-weight: bold;
+        }
+
+        .link1{
+            margin-top: 30px;
         }
 
     .comprar-link{
